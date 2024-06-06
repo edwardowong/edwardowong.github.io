@@ -1,13 +1,15 @@
 import React from 'react';
 import './App.css';
 
-import Landing from "./components/Landing";
+import NavBar from "./components/NavBar";
+import AboutMeCard from "./components/AboutMeCard";
+
 
 function App() {
   return (
     <div className="App">
-        <h1> Edward Wong </h1>
-      <Landing />
+        <NavBar />
+        <AboutMeCard />
     </div>
   );
 }
