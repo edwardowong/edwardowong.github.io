@@ -16,7 +16,7 @@ function NavBar(){
 
 
     return (
-        <AppBar position="static" sx={{ bgcolor:"lavender"}}>
+        <AppBar position="static" sx={{ bgcolor:"white"}}>
             <Container maxWidth="xs">
                 <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
                     {pages.map((page) => (
