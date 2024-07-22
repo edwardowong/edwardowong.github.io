@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, createTheme, ThemeProvider} from "@mui/material";
 import NavBar from "./components/NavBar";
-import AboutMeCard from "./components/AboutMeCard";
+import LandingCard from "./components/LandingCard";
 import { useState } from 'react';
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
       <ThemeProvider theme={darkTheme}>
           <Box bgcolor = {"background.default"} color = {'text.primary'}>
               <NavBar />
-              <AboutMeCard />
+              <LandingCard />
           </Box>
       </ThemeProvider>
   );
