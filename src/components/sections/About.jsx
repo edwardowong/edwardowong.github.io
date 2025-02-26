@@ -1,7 +1,7 @@
 export const About = () => {
     
-    const frontendSkills = ["JavaScript", "HTML", "CSS", "React", "Figma"]
-    const backendSkills = ["Python", "Java", "C#", "SQL", "Azure"]
+    const frontendSkills = ["JavaScript", "TypeScript", "HTML", "CSS", "React", "Figma"]
+    const backendSkills = ["Python", "Java", "C#", "C++", "SQL", "ASP.NET", "Azure"]
     
     return (
         <section id="about" className="min-h-screen flex items-center justify-center py-20">
@@ -11,7 +11,7 @@ export const About = () => {
             </h2>
             <div className="glass rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
                 <p className="text-gray-300 mb-6">
-                    Experienced developer with expertise in building scalable web applications and creating innovative solutions.
+                    Experienced developer with a passion for building scalable web applications and creating innovative solutions. With experience in developing software, optimizing processes, and enhancing user experiences, I thrive on solving complex challenges and improving system efficiency. I enjoy working with clients, actively listening to their needs, and delivering effective solutions that drive efficiency and impact.
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
@@ -44,10 +44,11 @@ export const About = () => {
                         <ul className="list-disc list-inside text-gray-300 space-y-2">
                             <li>
                                 <strong> B.Sc
-                                    Major in Computer Science, Minor in Game Development  </strong> - Western University (2018-2023)
-                            </li>
-                            <li>
-                                Relevant Coursework: Data Structures, Algorithms, Software Engineering, Databases
+                                    Major in Computer Science, Minor in Game Development - Western University (2018-2023)
+                                </strong>
+                                <p>
+                                Relevant Courses: Data Structures, Algorithms, Software Engineering, Systems Programming, Operating Systems, Databases, AI, Networks, Graphics, HCI, Game Programming, Game Design    
+                                </p>
                             </li>
                         </ul>
                     </div>
@@ -57,7 +58,8 @@ export const About = () => {
                             <div>
                                 <li>
                                     <strong> Developer - CGI Inc. (2021-2022) </strong>
-                                    <p> Deployment lead and microservice developer for a CRM Dynamics project</p>
+                                    <p> Led software deployment, managed documentation and provided on-call support for a Dynamics CRM project. </p> 
+                                    <p> Developed and optimized test automation, features for a query tool, and a payment processing system, significantly improving efficiency and user experience.</p>
                                 </li>
                             </div>
                         </div>
