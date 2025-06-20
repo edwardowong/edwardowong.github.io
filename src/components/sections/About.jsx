@@ -47,11 +47,7 @@ export const About = () => {
                                 <h3 className="text-xl font-bold mb-4"> Education </h3>
                                 <ul className="list-disc list-inside text-gray-300 space-y-2">
                                     <li>
-                                        <strong> Bachelor of Science </strong> <br />
-                                        <strong> Major in Computer Science </strong> <br />
-                                        <strong> Minor in Game Development </strong> <br />
-                                        <strong> Western University (2018-2023)
-                                        </strong>
+                                        <strong> Bachelor of Science <br /> Major in Computer Science <br /> Minor in Game Development <br /> Western University (2018-2023) </strong>
                                         <p>
                                         Relevant Courses: Data Structures, Algorithms, Software Engineering, Systems Programming, Operating Systems, Databases, AI, Networks, Graphics, HCI, Game Programming, Game Design    
                                         </p>
@@ -63,8 +59,7 @@ export const About = () => {
                                 <div className="space-y-4 text-gray-300">
                                     <div>
                                         <li>
-                                            <strong> Developer  </strong> <br />
-                                            <strong> CGI Inc. (2021-2022) 
+                                            <strong> Developer <br /> CGI INC. (2021-2022) </strong>
                                             <p> Led software deployments, managed documentation and provided on-call support for a Dynamics CRM project. </p> 
                                             <p> Developed and optimized test automation, features for a query tool, and a payment processing system, significantly improving efficiency and user experience.</p>
                                         </li>
