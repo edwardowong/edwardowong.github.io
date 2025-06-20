@@ -47,7 +47,7 @@ export const About = () => {
                                 <h3 className="text-xl font-bold mb-4"> Education </h3>
                                 <ul className="list-disc list-inside text-gray-300 space-y-2">
                                     <li>
-                                        <strong> B.Sc
+                                        <strong> Bachelor of Science
                                             Major in Computer Science, Minor in Game Development - Western University (2018-2023)
                                         </strong>
                                         <p>
@@ -62,7 +62,7 @@ export const About = () => {
                                     <div>
                                         <li>
                                             <strong> Developer - CGI Inc. (2021-2022) </strong>
-                                            <p> Led software deployment, managed documentation and provided on-call support for a Dynamics CRM project. </p> 
+                                            <p> Led software deployments, managed documentation and provided on-call support for a Dynamics CRM project. </p> 
                                             <p> Developed and optimized test automation, features for a query tool, and a payment processing system, significantly improving efficiency and user experience.</p>
                                         </li>
                                     </div>
