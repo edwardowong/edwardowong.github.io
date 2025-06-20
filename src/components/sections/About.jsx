@@ -47,8 +47,10 @@ export const About = () => {
                                 <h3 className="text-xl font-bold mb-4"> Education </h3>
                                 <ul className="list-disc list-inside text-gray-300 space-y-2">
                                     <li>
-                                        <strong> Bachelor of Science
-                                            Major in Computer Science, Minor in Game Development - Western University (2018-2023)
+                                        <strong> Bachelor of Science </strong>
+                                        <strong> Major in Computer Science </strong>
+                                        <strong> Minor in Game Development </strong>
+                                        <strong> Western University (2018-2023)
                                         </strong>
                                         <p>
                                         Relevant Courses: Data Structures, Algorithms, Software Engineering, Systems Programming, Operating Systems, Databases, AI, Networks, Graphics, HCI, Game Programming, Game Design    
@@ -61,7 +63,8 @@ export const About = () => {
                                 <div className="space-y-4 text-gray-300">
                                     <div>
                                         <li>
-                                            <strong> Developer - CGI Inc. (2021-2022) </strong>
+                                            <strong> Developer  </strong>
+                                            <strong> CGI Inc. (2021-2022) </strong>
                                             <p> Led software deployments, managed documentation and provided on-call support for a Dynamics CRM project. </p> 
                                             <p> Developed and optimized test automation, features for a query tool, and a payment processing system, significantly improving efficiency and user experience.</p>
                                         </li>
